@@ -9,8 +9,8 @@ All projects can be used for inspiration but please follow the **Udacity Honor C
 ## School of Artificial Intelligence
 
 ### Deep Reinforcement Learning
-P1. [Navigation]([https://github.com/Ohara124c41/DRLND-Navigation](https://github.com/Ohara124c41/DRLND-Navigation))
-P2. [Continuous Control]([https://github.com/Ohara124c41/DRLND-Continuous_Control](https://github.com/Ohara124c41/DRLND-Continuous_Control))
+P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)
+P2. [Continuous Control](https://github.com/Ohara124c41/DRLND-Continuous_Control))
 P3. [Collaborate and Competition]([https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition))
 
 ### Computer Vision
