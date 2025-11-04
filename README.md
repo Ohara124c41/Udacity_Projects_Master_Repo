@@ -27,7 +27,7 @@ P2. [Machine Translation](https://github.com/Ohara124c41/NLP-Machine_Translation
 
 
 ### Machine Learning with Pytorch
-P3. [Identifying_Customer_Segments](https://github.com/Ohara124c41/ML_PytorchND/Identifying_Customer_Segments)
+P3. [Identifying_Customer_Segments](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Identifying_Customer_Segments)
 
 ### Machine Learning
 P1. [Predicting Boston Housing Prices](https://github.com/Ohara124c41/MLND-Predicting_Boston_Housing_Pricing)
