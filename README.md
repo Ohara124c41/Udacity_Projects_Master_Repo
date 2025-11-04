@@ -23,11 +23,14 @@ P2. [Image Captioning](https://github.com/Ohara124c41/CVND-Image_Captioning)
 P3. [Landmark Detection & Robot Tracking](https://github.com/Ohara124c41/CVND-SLAM)
 
 ### Natural Language Processing
+
 P2. [Machine Translation](https://github.com/Ohara124c41/NLP-Machine_Translation/blob/master/machineTranslation/machineTranslation/machine_translation.ipynb)
 
-
 ### Machine Learning with Pytorch
-P3. [Identifying_Customer_Segments](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Identifying_Customer_Segments)
+
+P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Create_Your_Own_Image_Classifier)
+
+P3. [Identifying Customer Segments](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Identifying_Customer_Segments)
 
 ### Machine Learning
 P1. [Predicting Boston Housing Prices](https://github.com/Ohara124c41/MLND-Predicting_Boston_Housing_Pricing)
