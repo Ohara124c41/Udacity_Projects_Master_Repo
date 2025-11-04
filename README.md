@@ -1,10 +1,12 @@
+# Udacity Projects Master Repo
 
-# Udacity_Projects_Master_Repo
-Contains my solutions for various Nanodegree Programs (Robotics, Artificial Intelligence, Machine Learning, Deep Reinforcement Learning, Computer Vision, Sensor Fusion, Flying Cars). 
+Welcome to the Udacity Projects Master Repo! If you are an MSc in Artificial Intelligence candidate at the Udacity Institute of AI & Technology, this repo can help you to succeed in your coursework. 
 
-This repository contains my completed project solutions for various Udacity Nanodegrees. The projects are sorted by the relative Udacity School with the more recent completions at the top (my software development skills improved over time :rocket:).
+This repo contains my solutions for various Nanodegree Programs (Robotics, Artificial Intelligence, Machine Learning, Deep Reinforcement Learning, Computer Vision, Sensor Fusion, Flying Cars, etc.). Additionally, several of the elective courses are covered.  
 
-All projects can be used for inspiration but please follow the **Udacity Honor Code** and reference any "borrowed" material. Caveat emptor: use at your own risk (dura lex sed lex).
+The projects were originally sorted by the relative Udacity School, with the more recent completions at the top (my software development skills improved over time :rocket:). However, some of the newer programs that superceded previous content are intertwined (i.e., the Machine Learning with Pytorch replaced the original Machine Learning Nanodegree material). 
+
+All projects can be used for inspiration, but please follow the **Udacity Honor Code** and reference any "borrowed" material. Caveat emptor: use at your own risk (dura lex sed lex).
 
 ## School of Artificial Intelligence
 
