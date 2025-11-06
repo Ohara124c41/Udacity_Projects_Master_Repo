@@ -108,6 +108,12 @@ P8. [Deep Reinforcement Learning Arm (Kuka KR-210)](https://github.com/Ohara124c
 
 P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot)
 
+## School of Data Science
+
+### Data Architect
+
+P1. [Designing an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_an_HR_Database)
+
 ## School of Business
 
 ### Artificial Intelligence for Business Leaders
