@@ -112,7 +112,9 @@ P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot
 
 ### Data Architect
 
-P1. [Designing an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_an_HR_Database)
+P1. [Design an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_an_HR_Database)
+
+P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_a_Data_Warehouse)
 
 ## School of Business
 
