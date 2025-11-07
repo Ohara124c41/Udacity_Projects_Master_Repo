@@ -10,6 +10,10 @@ All projects can be used for inspiration, but please follow the **Udacity Honor 
 
 ## School of Artificial Intelligence
 
+### AI Programming 
+P1. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)
+
+
 ### Deep Reinforcement Learning
 P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)
 
