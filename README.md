@@ -4,7 +4,7 @@ Welcome to the Udacity Projects Master Repo! If you are an MSc in Artificial Int
 
 This repo contains my solutions for various Nanodegree Programs (Robotics, Artificial Intelligence, Machine Learning, Deep Reinforcement Learning, Computer Vision, Sensor Fusion, Flying Cars, etc.). Additionally, several of the elective courses are covered.  
 
-The projects were originally sorted by the relative Udacity School, with the more recent completions at the top (my software development skills improved over time :rocket:). However, some of the newer programs that superceded previous content are intertwined (i.e., the Machine Learning with Pytorch replaced the original Machine Learning Nanodegree material). 
+The projects were originally sorted by the relative Udacity School, with the more recent completions at the top (my software development skills improved over time :rocket:). However, some of the newer programs that succeeded previous content are intertwined (i.e., the Machine Learning with Pytorch replaced the original Machine Learning Nanodegree material). 
 
 All projects can be used for inspiration, but please follow the **Udacity Honor Code** and reference any "borrowed" material. Caveat emptor: use at your own risk (dura lex sed lex).
 
@@ -123,7 +123,14 @@ P1. [Design an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/
 
 P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_a_Data_Warehouse)
 
+### Data Foundations
+P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations)
+
+
 ## School of Business
+
+### Agentic AI for Business Leaders
+P1. [Agentic Expense Reporting System](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy/tree/master/Agentic-AI-for-Business-Leaders)
 
 ### Artificial Intelligence for Business Leaders
 P1. [Delivering an ML/AI Strategy](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy)
@@ -135,7 +142,6 @@ P2. [Build a Model with Google AutoML](https://github.com/Ohara124c41/AIPMND-AI_
 
 P3. [Capstone: AI for Space](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P3-Capstone_Proposal-AI_for_Space)
 
-
 ### Project Management
 P2. [Design Sprint](https://github.com/Ohara124c41/PMND-Project_Management_Nanodegree/tree/master/C2-Design_Sprint)
 
@@ -144,19 +150,13 @@ P2. [Facebook Campaign](https://github.com/Ohara124c41/DMND-Facebook_Campaign)
 
 P5. [Udacity Enterprise Portfolio](https://github.com/Ohara124c41/DMND-Digital_Marketing)
 
-
-## Other
+## School of Programming and Software Development
 ### Virtual Reality
 P1. [Carnival](https://github.com/Ohara124c41/VRND/tree/master/Project-1-Carnival)
 
 P2. [Design an Apartment](https://github.com/Ohara124c41/VRND)
 
 P3. [Maze](https://github.com/Ohara124c41/VRND/tree/master/Project-3-Maze)
-
-
-### Data Foundations
-P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations)
-
 
 
 
