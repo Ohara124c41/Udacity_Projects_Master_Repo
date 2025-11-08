@@ -12,139 +12,250 @@ All projects can be used for inspiration, but please follow the **Udacity Honor 
 
 ### AI Programming 
 
-P1. [Image Classification for a City Dog Show](https://github.com/Ohara124c41/AI_programming/tree/main/image_classification_city_dog_show)
+P1. [Image Classification for a City Dog Show](https://github.com/Ohara124c41/AI_programming/tree/main/image_classification_city_dog_show)  
+High-level goal: classify images of dogs and humans and identify dog breeds using a pre-trained convolutional neural network.  
+Technologies used: Python, PyTorch, torchvision, NumPy, PIL, transfer learning.
 
-P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)
-
+P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)  
+High-level goal: build and train a flower classifier and expose a command-line interface for training and inference.  
+Technologies used: PyTorch, torchvision, argparse, PIL, checkpointing for transfer learning.
 
 ### Deep Reinforcement Learning
-P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)
 
-P2. [Continuous Control](https://github.com/Ohara124c41/DRLND-Continuous_Control)
+P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)  
+High-level goal: train an agent to collect target items and avoid distractors in a Unity environment to maximize cumulative reward.  
+Technologies used: PyTorch, DQN/Double DQN with experience replay and target networks, Unity ML-Agents environment.
 
-P3. [Collaboration and Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition)
+P2. [Continuous Control](https://github.com/Ohara124c41/DRLND-Continuous_Control)  
+High-level goal: learn a continuous control policy to keep a robotic arm’s end-effector at target positions in the Reacher environment.  
+Technologies used: PyTorch, actor-critic (DDPG/TD3), Ornstein-Uhlenbeck noise, Unity ML-Agents environment.
+
+P3. [Collaboration and Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition)  
+High-level goal: train two cooperative agents to sustain rallies in a shared tennis-like environment under multi-agent dynamics.  
+Technologies used: PyTorch, multi-agent DDPG or MADDPG variants, parameter noise/exploration strategies, Unity multi-agent environment.
 
 ### Computer Vision
-P1. [Facial Keypoint Detection](https://github.com/Ohara124c41/CVND-Facial_Keypoint_Detection)
 
-P2. [Image Captioning](https://github.com/Ohara124c41/CVND-Image_Captioning)
+P1. [Facial Keypoint Detection](https://github.com/Ohara124c41/CVND-Facial_Keypoint_Detection)  
+High-level goal: localize facial landmarks to support downstream tasks such as tracking, pose estimation, or expression analysis.  
+Technologies used: PyTorch CNNs, data augmentation, MSE loss, OpenCV-based visualization.
 
-P3. [Landmark Detection & Robot Tracking](https://github.com/Ohara124c41/CVND-SLAM)
+P2. [Image Captioning](https://github.com/Ohara124c41/CVND-Image_Captioning)  
+High-level goal: generate natural language descriptions from images using an encoder-decoder architecture.  
+Technologies used: CNN encoder (e.g., ResNet) with RNN/LSTM decoder, PyTorch, beam search or greedy decoding.
+
+P3. [Landmark Detection & Robot Tracking](https://github.com/Ohara124c41/CVND-SLAM)  
+High-level goal: detect landmarks and estimate robot pose in a mapping task using probabilistic state estimation.  
+Technologies used: EKF-SLAM or particle filtering, NumPy, OpenCV, Python visualization.
 
 ### Natural Language Processing
 
-P2. [Machine Translation](https://github.com/Ohara124c41/NLP-Machine_Translation/blob/master/machineTranslation/machineTranslation/machine_translation.ipynb)
+P2. [Machine Translation](https://github.com/Ohara124c41/NLP-Machine_Translation/blob/master/machineTranslation/machineTranslation/machine_translation.ipynb)  
+High-level goal: translate sentences from English to French with a sequence-to-sequence neural model.  
+Technologies used: PyTorch, RNN/LSTM/GRU encoder-decoder with attention, tokenization, batching.
 
 ### Machine Learning with Pytorch
-P1. [Finding Donors](https://github.com/Ohara124c41/MLND-Finding_Donors)
 
-P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Create_Your_Own_Image_Classifier)
+P1. [Finding Donors](https://github.com/Ohara124c41/MLND-Finding_Donors)  
+High-level goal: predict potential charitable donors from census-like attributes to optimize outreach.  
+Technologies used: scikit-learn (SVM, RandomForest, GradientBoosting), pandas, feature scaling, cross-validation.
 
-P3. [Identifying Customer Segments](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Identifying_Customer_Segments)
+P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Create_Your_Own_Image_Classifier)  
+High-level goal: implement transfer learning for image recognition with configurable hyperparameters and saved checkpoints.  
+Technologies used: PyTorch, torchvision models, command-line training and inference utilities.
+
+P3. [Identifying Customer Segments](https://github.com/Ohara124c41/ML_PytorchND/tree/main/Identifying_Customer_Segments)  
+High-level goal: discover latent customer groups to support targeted marketing and product decisions.  
+Technologies used: PCA for dimensionality reduction, KMeans clustering, scikit-learn, pandas.
 
 ### Machine Learning
-P1. [Predicting Boston Housing Prices](https://github.com/Ohara124c41/MLND-Predicting_Boston_Housing_Pricing)
 
-P2. [Finding Donors](https://github.com/Ohara124c41/MLND-Finding_Donors)
+P1. [Predicting Boston Housing Prices](https://github.com/Ohara124c41/MLND-Predicting_Boston_Housing_Pricing)  
+High-level goal: model median home value as a function of neighborhood features and evaluate generalization.  
+Technologies used: scikit-learn regressors, grid search, learning curves, cross-validation.
 
-P3. [Titanic Survival Exploration](https://github.com/Ohara124c41/MLND-Titanic_Survival_Exploration)
+P2. [Finding Donors](https://github.com/Ohara124c41/MLND-Finding_Donors)  
+High-level goal: rank prospective donors to improve campaign efficiency and ROI.  
+Technologies used: scikit-learn classifiers, feature engineering, model selection and evaluation metrics.
 
-P4. [Smart Cab](https://github.com/Ohara124c41/MLND-Smartcab)
+P3. [Titanic Survival Exploration](https://github.com/Ohara124c41/MLND-Titanic_Survival_Exploration)  
+High-level goal: predict passenger survival to illustrate supervised learning pipelines and error analysis.  
+Technologies used: decision trees, ensemble baselines, scikit-learn, pandas.
 
-P5. [Customer Segments](https://github.com/Ohara124c41/MLND-Customer_Segments)
+P4. [Smart Cab](https://github.com/Ohara124c41/MLND-Smartcab)  
+High-level goal: learn a driving policy that obeys rules and reaches destinations in a simulated city.  
+Technologies used: Q-learning, epsilon-greedy exploration, Python simulation.
 
-P6. [Dog Breed Classifier](https://github.com/Ohara124c41/MLND-Dog_Breed_Classifier)
+P5. [Customer Segments](https://github.com/Ohara124c41/MLND-Customer_Segments)  
+High-level goal: segment customers to enable differentiated strategies for retention and growth.  
+Technologies used: PCA, clustering (KMeans), scikit-learn, pandas.
 
-P7. [Plagiarism Detection](https://github.com/Ohara124c41/MLNDT-Beta-Plagiarism_Detection)
+P6. [Dog Breed Classifier](https://github.com/Ohara124c41/MLND-Dog_Breed_Classifier)  
+High-level goal: detect whether an image contains a dog or human and classify the dog breed.  
+Technologies used: CNN transfer learning (e.g., VGG, ResNet), PyTorch, data augmentation.
 
-P8. [Capstone: Deep Traffic (MIT)](https://github.com/Ohara124c41/MLND-Capstone-DeepTraffic)
+P7. [Plagiarism Detection](https://github.com/Ohara124c41/MLNDT-Beta-Plagiarism_Detection)  
+High-level goal: identify potential plagiarism by measuring document similarity against known sources.  
+Technologies used: engineered text similarity features, SVM or Logistic Regression, scikit-learn.
 
+P8. [Capstone: Deep Traffic (MIT)](https://github.com/Ohara124c41/MLND-Capstone-DeepTraffic)  
+High-level goal: learn a high-throughput driving policy in a browser-based multi-lane traffic simulator.  
+Technologies used: deep reinforcement learning policy networks in JavaScript, simulator-provided APIs, hyperparameter search.
 
 ## 🤖 School of Autonomous Systems ✈️
 
 ### Sensor Fusion
-P1. [LiDAR Obstacle Detection](https://github.com/Ohara124c41/SFND_Lidar_Obstacle_Detection)
 
-P2. [2D Object Tracking](https://github.com/Ohara124c41/SFND_2D_Feature_Tracking)
+P1. [LiDAR Obstacle Detection](https://github.com/Ohara124c41/SFND_Lidar_Obstacle_Detection)  
+High-level goal: separate ground from obstacles and cluster objects in 3D point clouds.  
+Technologies used: C++, PCL, RANSAC plane fitting, KD-Tree Euclidean clustering.
 
-P3. [3D Object Tracking](https://github.com/Ohara124c41/SFND_3D_Object_Tracking)
+P2. [2D Object Tracking](https://github.com/Ohara124c41/SFND_2D_Feature_Tracking)  
+High-level goal: detect and track keypoints across frames to measure motion and build correspondences.  
+Technologies used: C++, OpenCV (detectors/descriptors), descriptor matching.
 
-P4. [Radar Target Generation and Detection](https://github.com/Ohara124c41/SFND-RADAR-Target_Generation-n-Detection)
+P3. [3D Object Tracking](https://github.com/Ohara124c41/SFND_3D_Object_Tracking)  
+High-level goal: associate camera detections with lidar points and track objects over time.  
+Technologies used: C++, OpenCV, PCL, bounding box association, time-to-collision estimation.
 
-P5. [Unscented Kalman Filter](https://github.com/Ohara124c41/SFND_Unscented_Kalman_Filter)
+P4. [Radar Target Generation and Detection](https://github.com/Ohara124c41/SFND-RADAR-Target_Generation-n-Detection)  
+High-level goal: simulate FMCW radar signals and implement CFAR to detect targets.  
+Technologies used: MATLAB/Octave signal processing, CFAR, range-Doppler maps.
 
+P5. [Unscented Kalman Filter](https://github.com/Ohara124c41/SFND_Unscented_Kalman_Filter)  
+High-level goal: estimate object state under nonlinear dynamics using UKF on lidar and radar measurements.  
+Technologies used: C++, Eigen, CTRV process model, sigma-point filtering.
 
 ### Autonomous Flight (Flying Cars)
-P1. [Backyard Flyer](https://github.com/Ohara124c41/FCND-Drone-Backyard_Flyer)
 
-P2. [3D Motion Planner](https://github.com/Ohara124c41/FCND-Drone-3D_Motion_Planning)
+P1. [Backyard Flyer](https://github.com/Ohara124c41/FCND-Drone-Backyard_Flyer)  
+High-level goal: plan and execute a simple waypoint mission to validate control and state estimation.  
+Technologies used: Python, drone simulator APIs, waypoint planning.
 
-P3. [Building a Controller](https://github.com/Ohara124c41/FCND-Drone-Building_a_Controller)
+P2. [3D Motion Planner](https://github.com/Ohara124c41/FCND-Drone-3D_Motion_Planning)  
+High-level goal: compute collision-free global paths in a mapped environment.  
+Technologies used: Python, occupancy grids, A* search, heuristic tuning.
 
-P4. [Building an Estimator](https://github.com/Ohara124c41/FCND-Drone-Building_an_Estimator)
+P3. [Building a Controller](https://github.com/Ohara124c41/FCND-Drone-Building_a_Controller)  
+High-level goal: design attitude and position controllers for a quadrotor to track trajectories.  
+Technologies used: C++ or Python control loops, PID/linear controllers, simulator integration.
 
+P4. [Building an Estimator](https://github.com/Ohara124c41/FCND-Drone-Building_an_Estimator)  
+High-level goal: estimate vehicle state from noisy IMU and GPS using probabilistic filtering.  
+Technologies used: C++ Extended Kalman Filter, sensor fusion, tuning and validation.
 
 ### Robotics
-P1. [Autonomous Search Rover](https://github.com/Ohara124c41/RoboND-Autonomous_Search_Rover)
 
-P2. [Kinematics (Kuka-KR210)](https://github.com/Ohara124c41/RoboND-Kinematics-Kuka-KR210)
+P1. [Autonomous Search Rover](https://github.com/Ohara124c41/RoboND-Autonomous_Search_Rover)  
+High-level goal: perceive obstacles and navigable terrain to autonomously explore and retrieve samples.  
+Technologies used: Python, OpenCV perception pipeline, decision logic, telemetry logging.
 
-P3. [3D Perception (PR2)](https://github.com/Ohara124c41/RoboND-PR2-3D_Perception)
+P2. [Kinematics (Kuka-KR210)](https://github.com/Ohara124c41/RoboND-Kinematics-Kuka-KR210)  
+High-level goal: compute forward and inverse kinematics for a 6-DOF manipulator and validate poses.  
+Technologies used: Python, ROS, DH parameterization, SymPy for IK.
 
-P4. [Follow Me](https://github.com/Ohara124c41/RoboND-Follow_Me)
+P3. [3D Perception (PR2)](https://github.com/Ohara124c41/RoboND-PR2-3D_Perception)  
+High-level goal: segment scenes and recognize tabletop objects for pick-and-place tasks.  
+Technologies used: ROS, PCL (voxel grid, RANSAC), clustering, SVM or template matching.
 
-P5. [Robotic Inference](https://github.com/Ohara124c41/RSEND-Robotic_Inference)
+P4. [Follow Me](https://github.com/Ohara124c41/RoboND-Follow_Me)  
+High-level goal: detect and follow a target person in video streams.  
+Technologies used: semantic segmentation or object detection CNNs, ROS nodes for perception and control.
 
-P6. [Where am I?](https://github.com/Ohara124c41/RSEND-Localization-WhereAmI)
+P5. [Robotic Inference](https://github.com/Ohara124c41/RSEND-Robotic_Inference)  
+High-level goal: apply deep learning inference for robotic perception or manipulation tasks.  
+Technologies used: TensorFlow or PyTorch models, ROS integration, inference optimization.
 
-P7. [Map My World](https://github.com/Ohara124c41/RSEND-Map_My_World)
+P6. [Where am I?](https://github.com/Ohara124c41/RSEND-Localization-WhereAmI)  
+High-level goal: localize a robot within a known map using probabilistic techniques.  
+Technologies used: ROS AMCL or particle filter localization, sensor models, map server.
 
-P8. [Deep Reinforcement Learning Arm (Kuka KR-210)](https://github.com/Ohara124c41/RSEND-KUKA-DeepRL_Arm)
+P7. [Map My World](https://github.com/Ohara124c41/RSEND-Map_My_World)  
+High-level goal: build a map while estimating pose from onboard sensors.  
+Technologies used: ROS with RTAB-Map or SLAM backends, bagging and visualization tools.
 
-P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot)
+P8. [Deep Reinforcement Learning Arm (Kuka KR-210)](https://github.com/Ohara124c41/RSEND-KUKA-DeepRL_Arm)  
+High-level goal: learn a control policy for a manipulator to reach or grasp under uncertainty.  
+Technologies used: PyTorch RL algorithms, robotics simulator interfaces, reward shaping.
 
+P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot)  
+High-level goal: perform autonomous pick-and-deliver tasks in a house map.  
+Technologies used: ROS Navigation stack (mapping, localization, planning), Gazebo, custom state machine.
 
 ## 📊 School of Data Science 📈
 
 ### Data Architect
 
-P1. [Design an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_an_HR_Database)
+P1. [Design an HR Database](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_an_HR_Database)  
+High-level goal: elicit business requirements and design a normalized relational schema for HR operations.  
+Technologies used: ER modeling, PostgreSQL 9.5 DDL, access control and backup considerations.
 
-P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_a_Data_Warehouse)
+P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_a_Data_Warehouse)  
+High-level goal: model analytical workloads with star schemas and implement an end-to-end ETL pipeline.  
+Technologies used: dimensional modeling, PostgreSQL, SQL-based ETL, performance tuning.
 
 ### Data Foundations
-P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations)
 
+P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations)  
+High-level goal: analyze air travel performance and factors driving delays and cancellations.  
+Technologies used: SQL queries, relational joins and aggregations, data visualization.
 
 ## 💼 School of Business 📈
 
 ### Agentic AI for Business Leaders
-P1. [Agentic Expense Reporting System](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy/tree/master/Agentic-AI-for-Business-Leaders)
+
+P1. [Agentic Expense Reporting System](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy/tree/master/Agentic-AI-for-Business-Leaders)  
+High-level goal: automate receipt parsing, policy checks, and payment decisions through a multi-agent workflow.  
+Technologies used: OCR and data extraction, spreadsheet APIs, rule evaluation, payment service integration.
 
 ### Artificial Intelligence for Business Leaders
-P1. [Delivering an ML/AI Strategy](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy)
+
+P1. [Delivering an ML/AI Strategy](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy)  
+High-level goal: define a practical ML/AI strategy aligned with product and organizational constraints.  
+Technologies used: strategic planning artifacts, data maturity assessment, roadmap and KPI definition.
 
 ### Artificial Intelligence for Product Managers
-P1. [Create a Medical Image Data Annotation Job](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P1-Create_a_Medical_Image_Data_Annotation_Job)
 
-P2. [Build a Model with Google AutoML](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P2-Build_a_Model_with_Google_AutoML)
+P1. [Create a Medical Image Data Annotation Job](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P1-Create_a_Medical_Image_Data_Annotation_Job)  
+High-level goal: specify a labeling task with clear guidelines to ensure high-quality medical image annotations.  
+Technologies used: labeling tool configuration, JSON schemas, quality control workflows.
 
-P3. [Capstone: AI for Space](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P3-Capstone_Proposal-AI_for_Space)
+P2. [Build a Model with Google AutoML](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P2-Build_a_Model_with_Google_AutoML)  
+High-level goal: train and evaluate a classification model using a managed AutoML service.  
+Technologies used: Google Cloud AutoML, dataset curation, evaluation metrics and model export.
+
+P3. [Capstone: AI for Space](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P3-Capstone_Proposal-AI_for_Space)  
+High-level goal: propose an AI product concept for space applications with problem framing and feasibility.  
+Technologies used: product requirement definition, risk and stakeholder analysis, experimental roadmap.
 
 ### Project Management
-P2. [Design Sprint](https://github.com/Ohara124c41/PMND-Project_Management_Nanodegree/tree/master/C2-Design_Sprint)
+
+P2. [Design Sprint](https://github.com/Ohara124c41/PMND-Project_Management_Nanodegree/tree/master/C2-Design_Sprint)  
+High-level goal: validate a product idea through a structured multi-day sprint workflow.  
+Technologies used: sprint artifacts, user journey mapping, prototyping and feedback capture.
 
 ### Digital Marketing
-P2. [Facebook Campaign](https://github.com/Ohara124c41/DMND-Facebook_Campaign)
 
-P5. [Udacity Enterprise Portfolio](https://github.com/Ohara124c41/DMND-Digital_Marketing)
+P2. [Facebook Campaign](https://github.com/Ohara124c41/DMND-Facebook_Campaign)  
+High-level goal: plan, launch, and analyze a paid social campaign against business objectives.  
+Technologies used: Facebook Ads Manager, audience targeting, KPI tracking and reporting.
 
+P5. [Udacity Enterprise Portfolio](https://github.com/Ohara124c41/DMND-Digital_Marketing)  
+High-level goal: present a cohesive digital marketing portfolio for enterprise stakeholders.  
+Technologies used: portfolio structuring, analytics summaries, content curation.
 
 ## 💻 School of Programming and Software Development 🧑‍💻
 
 ### Virtual Reality
-P1. [Carnival](https://github.com/Ohara124c41/VRND/tree/master/Project-1-Carnival)
 
-P2. [Design an Apartment](https://github.com/Ohara124c41/VRND)
+P1. [Carnival](https://github.com/Ohara124c41/VRND/tree/master/Project-1-Carnival)  
+High-level goal: build interactive VR mini-games to demonstrate physics and interaction design.  
+Technologies used: Unity, C#, VR interaction frameworks.
 
-P3. [Maze](https://github.com/Ohara124c41/VRND/tree/master/Project-3-Maze)
+P2. [Design an Apartment](https://github.com/Ohara124c41/VRND)  
+High-level goal: create a navigable VR interior scene with lighting and materials suitable for presence.  
+Technologies used: Unity, C#, scene layout and optimization.
+
+P3. [Maze](https://github.com/Ohara124c41/VRND/tree/master/Project-3-Maze)  
+High-level goal: implement a VR maze experience with locomotion and collision handling.  
+Technologies used: Unity, C#, VR controller input and physics.
