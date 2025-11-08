@@ -8,7 +8,7 @@ The projects were originally sorted by the relative Udacity School, with the mor
 
 All projects can be used for inspiration, but please follow the **Udacity Honor Code** and reference any "borrowed" material. Caveat emptor: use at your own risk (dura lex sed lex).
 
-## School of Artificial Intelligence
+## 🧠 School of Artificial Intelligence 🤖
 
 ### AI Programming 
 
@@ -22,7 +22,7 @@ P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)
 
 P2. [Continuous Control](https://github.com/Ohara124c41/DRLND-Continuous_Control)
 
-P3. [Collaborate and Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition)
+P3. [Collaboration and Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition)
 
 ### Computer Vision
 P1. [Facial Keypoint Detection](https://github.com/Ohara124c41/CVND-Facial_Keypoint_Detection)
@@ -60,19 +60,7 @@ P7. [Plagiarism Detection](https://github.com/Ohara124c41/MLNDT-Beta-Plagiarism_
 P8. [Capstone: Deep Traffic (MIT)](https://github.com/Ohara124c41/MLND-Capstone-DeepTraffic)
 
 
-### Artificial Intelligence
-P1. [Sudoku](https://github.com/Ohara124c41/AIND-Sudoku)
-
-P2. [Planning](https://github.com/Ohara124c41/AIND-Planning)
-
-P3. [Isolation](https://github.com/Ohara124c41/AIND-Isolation)
-
-P4. [ASL Recognizer](https://github.com/Ohara124c41/AIND-ASL_Recognizer)
-
-P5. [Forward Planning Agent](https://github.com/Ohara124c41/AIND-Forward-Planning_Agent)
-
-
-## School of Autonomous Systems
+## 🤖 School of Autonomous Systems ✈️
 
 ### Sensor Fusion
 P1. [LiDAR Obstacle Detection](https://github.com/Ohara124c41/SFND_Lidar_Obstacle_Detection)
@@ -99,7 +87,7 @@ P4. [Building an Estimator](https://github.com/Ohara124c41/FCND-Drone-Building_a
 ### Robotics
 P1. [Autonomous Search Rover](https://github.com/Ohara124c41/RoboND-Autonomous_Search_Rover)
 
-P2. [Kinematics (Kuka-KR210](https://github.com/Ohara124c41/RoboND-Kinematics-Kuka-KR210)
+P2. [Kinematics (Kuka-KR210)](https://github.com/Ohara124c41/RoboND-Kinematics-Kuka-KR210)
 
 P3. [3D Perception (PR2)](https://github.com/Ohara124c41/RoboND-PR2-3D_Perception)
 
@@ -115,7 +103,8 @@ P8. [Deep Reinforcement Learning Arm (Kuka KR-210)](https://github.com/Ohara124c
 
 P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot)
 
-## School of Data Science
+
+## 📊 School of Data Science 📈
 
 ### Data Architect
 
@@ -127,7 +116,7 @@ P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tre
 P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations)
 
 
-## School of Business
+## 💼 School of Business 📈
 
 ### Agentic AI for Business Leaders
 P1. [Agentic Expense Reporting System](https://github.com/Ohara124c41/AIBLND-Delivering_an_ML-AI_Strategy/tree/master/Agentic-AI-for-Business-Leaders)
@@ -150,13 +139,12 @@ P2. [Facebook Campaign](https://github.com/Ohara124c41/DMND-Facebook_Campaign)
 
 P5. [Udacity Enterprise Portfolio](https://github.com/Ohara124c41/DMND-Digital_Marketing)
 
-## School of Programming and Software Development
+
+## 💻 School of Programming and Software Development 🧑‍💻
+
 ### Virtual Reality
 P1. [Carnival](https://github.com/Ohara124c41/VRND/tree/master/Project-1-Carnival)
 
 P2. [Design an Apartment](https://github.com/Ohara124c41/VRND)
 
 P3. [Maze](https://github.com/Ohara124c41/VRND/tree/master/Project-3-Maze)
-
-
-
