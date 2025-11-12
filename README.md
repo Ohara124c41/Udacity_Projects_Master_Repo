@@ -10,15 +10,30 @@ All projects can be used for inspiration, but please follow the **Udacity Honor 
 
 ## 🧠 School of Artificial Intelligence 🤖
 
-### AI Programming 
 
-P1. [Image Classification for a City Dog Show](https://github.com/Ohara124c41/AI_programming/tree/main/image_classification_city_dog_show)  
-High-level goal: classify images of dogs and humans and identify dog breeds using a pre-trained convolutional neural network.  
-Technologies used: Python, PyTorch, torchvision, NumPy, PIL, transfer learning.
+### Agentic AI
 
-P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)  
-High-level goal: build and train a flower classifier and expose a command-line interface for training and inference.  
-Technologies used: PyTorch, torchvision, argparse, PIL, checkpointing for transfer learning.
+P1. [Multi-Agent Orchestrator Logistics System](https://github.com/Ohara124c41/agentic_ai/tree/main/multi-agent_orchestrator_logistics_system)  
+High-level goal: coordinate up to five agents to automate inventory, quoting, and fulfillment flows for a paper company.  
+Technologies used: Python, Pydantic AI multi-agent graph, SQLite or SQLAlchemy-backed tools, structured outputs, OpenAI proxy integration.
+
+P2. [AI-Powered Genetic Workflow for Product Management](https://github.com/Ohara124c41/agentic_ai/tree/main/AI-powered_genetic_workflow_for_product_mgmt)  
+High-level goal: run persona-aware analysis, routing, and staged evaluation to generate and score product requirements.  
+Technologies used: Python, OpenAI-compatible APIs, RAG over CSV knowledge stores, modular agent harness.
+
+P3. [AI Research Agent - Video Game Industry](https://github.com/Ohara124c41/agentic_ai/tree/main/AI_research_agent_video_game_industry)  
+High-level goal: answer executive queries on market structure using RAG over structured game data and vector embeddings.  
+Technologies used: Python, ChromaDB with SQLite, retrieval and summarization agents, notebook-driven workflows.
+
+P4. [Multi-Agent Travel Assistant System](https://github.com/Ohara124c41/agentic_ai/tree/main/multi-agent_travel_assistant_system)  
+High-level goal: prototype a travel concierge that plans itineraries, evaluates booking options, and coordinates customer messaging across specialized agents.  
+Technologies used: Python, framework-agnostic multi-agent orchestration patterns, OpenAI-compatible models.
+
+### Building Agents with Core Bioinformatics Tools
+
+P1. [UdaciScan - Drug Repurposing Agent](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
+High-level goal: answer drug repurposing questions by retrieving PubMed abstracts, gating on retrieval confidence, extracting and ranking candidate drugs, and emitting reproducible briefs with traces.  
+Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.
 
 ### Deep Reinforcement Learning
 
@@ -101,6 +116,23 @@ Technologies used: engineered text similarity features, SVM or Logistic Regressi
 P8. [Capstone: Deep Traffic (MIT)](https://github.com/Ohara124c41/MLND-Capstone-DeepTraffic)  
 High-level goal: learn a high-throughput driving policy in a browser-based multi-lane traffic simulator.  
 Technologies used: deep reinforcement learning policy networks in JavaScript, simulator-provided APIs, hyperparameter search.
+
+### GitHub Copilot with JavaScript
+
+P1. [GitHub Copilot Starter](https://github.com/Ohara124c41/github-copilot-starter)  
+High-level goal: refactor a simple Sudoku game to a modern React and Next.js web app, adding generator, timer, hints, difficulty selection, validation, and persistence of top scores.  
+Technologies used: JavaScript, React, Next.js, HTML, CSS, optional Tailwind or modular CSS, localStorage for leaderboard.
+
+### AI Programming 
+
+P1. [Image Classification for a City Dog Show](https://github.com/Ohara124c41/AI_programming/tree/main/image_classification_city_dog_show)  
+High-level goal: classify images of dogs and humans and identify dog breeds using a pre-trained convolutional neural network.  
+Technologies used: Python, PyTorch, torchvision, NumPy, PIL, transfer learning.
+
+P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)  
+High-level goal: build and train a flower classifier and expose a command-line interface for training and inference.  
+Technologies used: PyTorch, torchvision, argparse, PIL, checkpointing for transfer learning.
+
 
 ## 🤖 School of Autonomous Systems ✈️
 
