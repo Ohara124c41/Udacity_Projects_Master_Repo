@@ -29,6 +29,24 @@ P4. [Multi-Agent Travel Assistant System](https://github.com/Ohara124c41/agentic
 High-level goal: prototype a travel concierge that plans itineraries, evaluates booking options, and coordinates customer messaging across specialized agents.  
 Technologies used: Python, framework-agnostic multi-agent orchestration patterns, OpenAI-compatible models.
 
+### Generative AI
+
+P1. [AI Photo Editing & Inpainting](https://github.com/Ohara124c41/generative_ai/tree/main/ai_photo_editing_inpainting)  
+High-level goal: build an interactive app for targeted inpainting and style edits on user-uploaded photos.  
+Technologies used: Python, Streamlit, diffusers or Stable Diffusion inpainting, Pillow, OpenCV.
+
+P2. [Custom Architecture Framework Chatbot](https://github.com/Ohara124c41/generative_ai/tree/main/custom_architecture_framework_chatbot)  
+High-level goal: create an LLM assistant that answers questions about a proprietary architecture governance framework using RAG.  
+Technologies used: LangChain, OpenAI via Vocareum, ChromaDB or FAISS, pandas, Python notebooks and CLI.
+
+P3. [Lightweight Fine-Tuning of a Foundational Model](https://github.com/Ohara124c41/generative_ai/tree/main/lightweight_fine-tuning_foundational_model)  
+High-level goal: fine-tune DistilBERT for sentiment classification with parameter-efficient techniques.  
+Technologies used: Hugging Face Transformers, PEFT/LoRA, PyTorch, datasets, scikit-learn metrics.
+
+P4. [HomeMatch - Personalized Real Estate Agent](https://github.com/Ohara124c41/generative_ai/tree/main/personalized_real-estate_agent)  
+High-level goal: generate synthetic listings, store text and image embeddings, collect buyer preferences, and return GPT-personalized property narratives.  
+Technologies used: LangChain, LangChain-OpenAI, ChromaDB, CLIP and Sentence Transformers, Pillow, pandas.
+
 ### Building Agents with Core Bioinformatics Tools
 
 P1. [UdaciScan - Drug Repurposing Agent](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
