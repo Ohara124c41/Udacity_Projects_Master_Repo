@@ -53,6 +53,7 @@ P1. [UdaciScan - Drug Repurposing Agent](https://github.com/Ohara124c41/building
 High-level goal: answer drug repurposing questions by retrieving PubMed abstracts, gating on retrieval confidence, extracting and ranking candidate drugs, and emitting reproducible briefs with traces.  
 Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.
 
+
 ### Deep Reinforcement Learning
 
 P1. [Navigation](https://github.com/Ohara124c41/DRLND-Navigation)  
@@ -66,6 +67,24 @@ Technologies used: PyTorch, actor-critic (DDPG/TD3), Ornstein-Uhlenbeck noise, U
 P3. [Collaboration and Competition](https://github.com/Ohara124c41/DRLND-Collaborate-n-Competition)  
 High-level goal: train two cooperative agents to sustain rallies in a shared tennis-like environment under multi-agent dynamics.  
 Technologies used: PyTorch, multi-agent DDPG or MADDPG variants, parameter noise/exploration strategies, Unity multi-agent environment.
+
+### Deep Learning
+
+P1. [GAN Face Generator](https://github.com/Ohara124c41/deep_learning/tree/main/generative_adversarial_network_face_generator)  
+High-level goal: synthesize realistic human faces from random latent vectors by training a GAN on CelebA.  
+Technologies used: PyTorch, torchvision, DCGAN/WGAN-GP training loop with gradient penalty, NumPy, Matplotlib, Jupyter. :contentReference[oaicite:0]{index=0}
+
+P2. [Landmark Classification & Social Media Tagging](https://github.com/Ohara124c41/deep_learning/tree/main/landmark_classification_tagging_social_media)  
+High-level goal: identify which of 50 global landmarks appears in a user photo to enable automatic social-media tagging.  
+Technologies used: PyTorch CNNs, transfer learning with pretrained backbones, PIL, numpy/pandas, Matplotlib/Seaborn, helper training utilities. :contentReference[oaicite:1]{index=1}
+
+P3. [MNIST Handwritten Digit Classifier](https://github.com/Ohara124c41/deep_learning/tree/main/MNIST_handwritten_digits)  
+High-level goal: reach greater than 98 percent accuracy on MNIST with a compact MLP and documented training pipeline.  
+Technologies used: PyTorch, torchvision datasets, BatchNorm and dropout, AdamW with LR scheduling, Jupyter. :contentReference[oaicite:2]{index=2}
+
+P4. [Text Translation & Sentiment Analysis with Transformers](https://github.com/Ohara124c41/deep_learning/tree/main/text_translation_sentiment_analysis_transformers)  
+High-level goal: translate multilingual movie reviews to English and attach sentiment labels to produce a unified analytics-ready CSV.  
+Technologies used: Hugging Face Transformers, MarianMT translation, DistilBERT sentiment pipeline, pandas, PyTorch, sacremoses. :contentReference[oaicite:3]{index=3}
 
 ### Computer Vision
 
@@ -150,7 +169,6 @@ Technologies used: Python, PyTorch, torchvision, NumPy, PIL, transfer learning.
 P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_programming/tree/main/create_your_own_image_classifier)  
 High-level goal: build and train a flower classifier and expose a command-line interface for training and inference.  
 Technologies used: PyTorch, torchvision, argparse, PIL, checkpointing for transfer learning.
-
 
 ## 🤖 School of Autonomous Systems ✈️
 
