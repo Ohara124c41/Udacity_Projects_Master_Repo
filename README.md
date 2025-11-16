@@ -276,6 +276,23 @@ P3. [Communicate Nuclear IAEA Data Findings](https://github.com/Ohara124c41/data
 High-level goal: produce exploratory and explanatory visualizations on nuclear infrastructure and electricity statistics using merged country-level data.  
 Technologies used: Jupyter Notebook, pandas, Matplotlib, HTML exports for presentation-ready deliverables. 
 
+### Statistics for Data Analysis
+
+P1. [Salary Prediction via Linear Regression](https://github.com/Ohara124c41/statistics_for_data_analysis/tree/main/model_salary_data_linear_regression)  
+High-level goal: build, fit, and interpret a salary prediction model using linear regression with clear diagnostics and interpretation.  
+Technologies used: Python, pandas, NumPy, statsmodels or scikit-learn linear models, Matplotlib, Jupyter.
+
+P2. [A/B Test Results Analysis](https://github.com/Ohara124c41/statistics_for_data_analysis/tree/main/analyze_a-b_test_results)  
+High-level goal: evaluate an online experiment for conversion differences using hypothesis tests and effect size.  
+Technologies used: pandas, SciPy statistical tests, confidence intervals, Matplotlib, Jupyter.
+
+P3. [Basketball Scoring Probabilities](https://github.com/Ohara124c41/statistics_for_data_analysis/tree/main/calculate_basketball_scoring_probabilities)  
+High-level goal: model and compute scoring probabilities for game scenarios with worked, notebook-based examples.  
+Technologies used: probability rules, combinatorics, NumPy, pandas, Jupyter.
+
+P4. [Health and Sleep Quality Description](https://github.com/Ohara124c41/statistics_for_data_analysis/tree/main/describe_health_sleep_quality_data)  
+High-level goal: explore and describe health and sleep quality data to surface descriptive insights and visual patterns.  
+Technologies used: pandas, descriptive statistics, Matplotlib or Seaborn visualization, Jupyter.
 
 ### Data Foundations
 
