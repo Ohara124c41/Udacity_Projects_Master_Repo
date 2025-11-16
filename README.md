@@ -29,6 +29,19 @@ P4. [Multi-Agent Travel Assistant System](https://github.com/Ohara124c41/agentic
 High-level goal: prototype a travel concierge that plans itineraries, evaluates booking options, and coordinates customer messaging across specialized agents.  
 Technologies used: Python, framework-agnostic multi-agent orchestration patterns, OpenAI-compatible models.
 
+### Building Regulation-Aware Multi-Agent Systems
+
+P1. [Orphan Finder: Rare Disease Variant-to-Therapy Matchmaker](https://github.com/Ohara124c41/orphan-finder-variant-to-therapy-matcher)  
+High-level goal: rank candidate variants with ClinVar, synthesize PMID-backed evidence from PubMed, and match to ClinicalTrials.gov trials to produce a clinician-style, auditable brief.  
+Technologies used: Python 3.10, three-agent orchestration (Orchestrator, VariantPrioritizer, EvidenceSynthesizer, TrialMatcher), ClinVar queries, PubMed E-utilities, ClinicalTrials.gov API, JSONL run logging. 
+
+### Building Agents with Core Bioinformatics Tools
+
+P1. [UdaciScan - An AI Research Agent for Drug‑Repurposing Insights](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
+High-level goal: answer drug repurposing questions by retrieving PubMed abstracts, gating on retrieval confidence, extracting and ranking candidate drugs, and emitting reproducible briefs with traces.  
+Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.
+
+
 ### Generative AI
 
 P1. [AI Photo Editing & Inpainting](https://github.com/Ohara124c41/generative_ai/tree/main/ai_photo_editing_inpainting)  
@@ -46,12 +59,6 @@ Technologies used: Hugging Face Transformers, PEFT/LoRA, PyTorch, datasets, scik
 P4. [HomeMatch - Personalized Real Estate Agent](https://github.com/Ohara124c41/generative_ai/tree/main/personalized_real-estate_agent)  
 High-level goal: generate synthetic listings, store text and image embeddings, collect buyer preferences, and return GPT-personalized property narratives.  
 Technologies used: LangChain, LangChain-OpenAI, ChromaDB, CLIP and Sentence Transformers, Pillow, pandas.
-
-### Building Agents with Core Bioinformatics Tools
-
-P1. [UdaciScan - Drug Repurposing Agent](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
-High-level goal: answer drug repurposing questions by retrieving PubMed abstracts, gating on retrieval confidence, extracting and ranking candidate drugs, and emitting reproducible briefs with traces.  
-Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.
 
 
 ### Deep Reinforcement Learning
