@@ -8,39 +8,59 @@ The projects were originally sorted by the relative Udacity School, with the mor
 
 All projects can be used for inspiration, but please follow the **Udacity Honor Code** and reference any "borrowed" material. Caveat emptor: use at your own risk (dura lex sed lex).
 
-## 🧠 School of Artificial Intelligence 🤖
+## Quick navigation
 
+Jump to:
+- [School of Artificial Intelligence](#ai)
+- [School of Autonomous Systems](#autonomous-systems)
+- [School of Data Science](#data-science)
+- [School of Business](#business)
+- [School of Programming and Software Development](#programming)
+
+## Skills index
+
+Reinforcement learning, deep learning, computer vision, NLP, multi-agent systems, agents and orchestration, RAG, bioinformatics tooling, statistics and experiment design, SQL and data modeling, ETL and warehousing, ROS and robotics, sensor fusion and estimation, VR with Unity, product and project management, digital marketing analytics.
+
+---
+
+<a id="ai"></a>
+## 🧠 School of Artificial Intelligence 🤖
 
 ### Agentic AI
 
 P1. [Multi-Agent Orchestrator Logistics System](https://github.com/Ohara124c41/agentic_ai/tree/main/multi-agent_orchestrator_logistics_system)  
 High-level goal: coordinate up to five agents to automate inventory, quoting, and fulfillment flows for a paper company.  
-Technologies used: Python, Pydantic AI multi-agent graph, SQLite or SQLAlchemy-backed tools, structured outputs, OpenAI proxy integration.
+Technologies used: Python, Pydantic AI multi-agent graph, SQLite or SQLAlchemy-backed tools, structured outputs, OpenAI proxy integration.  
+Scope: uses a compact graph of cooperating agents with shared tools and structured I/O, suited for quote-to-cash style flows.
 
 P2. [AI-Powered Genetic Workflow for Product Management](https://github.com/Ohara124c41/agentic_ai/tree/main/AI-powered_genetic_workflow_for_product_mgmt)  
 High-level goal: run persona-aware analysis, routing, and staged evaluation to generate and score product requirements.  
-Technologies used: Python, OpenAI-compatible APIs, RAG over CSV knowledge stores, modular agent harness.
+Technologies used: Python, OpenAI-compatible APIs, RAG over CSV knowledge stores, modular agent harness.  
+Scope: orchestrates multi-step evaluation and reporting for PM artifacts with traceable intermediate products.
 
 P3. [AI Research Agent - Video Game Industry](https://github.com/Ohara124c41/agentic_ai/tree/main/AI_research_agent_video_game_industry)  
 High-level goal: answer executive queries on market structure using RAG over structured game data and vector embeddings.  
-Technologies used: Python, ChromaDB with SQLite, retrieval and summarization agents, notebook-driven workflows.
+Technologies used: Python, ChromaDB with SQLite, retrieval and summarization agents, notebook-driven workflows.  
+Scope: retrieval pipeline with lightweight vector store for exploratory industry analysis.
 
 P4. [Multi-Agent Travel Assistant System](https://github.com/Ohara124c41/agentic_ai/tree/main/multi-agent_travel_assistant_system)  
 High-level goal: prototype a travel concierge that plans itineraries, evaluates booking options, and coordinates customer messaging across specialized agents.  
-Technologies used: Python, framework-agnostic multi-agent orchestration patterns, OpenAI-compatible models.
+Technologies used: Python, framework-agnostic multi-agent orchestration patterns, OpenAI-compatible models.  
+Scope: modular assistants for planning, evaluation, and communications across a shared state.
 
 ### Building Regulation-Aware Multi-Agent Systems
 
 P1. [Orphan Finder: Rare Disease Variant-to-Therapy Matchmaker](https://github.com/Ohara124c41/orphan-finder-variant-to-therapy-matcher)  
 High-level goal: rank candidate variants with ClinVar, synthesize PMID-backed evidence from PubMed, and match to ClinicalTrials.gov trials to produce a clinician-style, auditable brief.  
-Technologies used: Python 3.10, three-agent orchestration (Orchestrator, VariantPrioritizer, EvidenceSynthesizer, TrialMatcher), ClinVar queries, PubMed E-utilities, ClinicalTrials.gov API, JSONL run logging. 
+Technologies used: Python 3.10, three-agent orchestration (Orchestrator, VariantPrioritizer, EvidenceSynthesizer, TrialMatcher), ClinVar queries, PubMed E-utilities, ClinicalTrials.gov API, JSONL run logging.  
+Scope: integrates three public biomedical sources with an auditable JSONL trace of tool calls and selections, producing a report.md and ranked_variants.csv per run for reproducibility.
 
 ### Building Agents with Core Bioinformatics Tools
 
-P1. [UdaciScan - An AI Research Agent for Drug‑Repurposing Insights](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
+P1. [UdaciScan - An AI Research Agent for Drug-Repurposing Insights](https://github.com/Ohara124c41/building_agents_core_bioinformatics_tools)  
 High-level goal: answer drug repurposing questions by retrieving PubMed abstracts, gating on retrieval confidence, extracting and ranking candidate drugs, and emitting reproducible briefs with traces.  
-Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.
-
+Technologies used: Python 3.10+, ChromaDB vector store, OpenAI-compatible endpoint via Vocareum, PubMed and NCBI integrations, YAML configuration, CLI runner with JSON/Markdown outputs.  
+Scope: end-to-end CLI and notebook workflows with vector search, ranked outputs, and artifact logging.
 
 ### Generative AI
 
@@ -50,7 +70,8 @@ Technologies used: Python, Streamlit, diffusers or Stable Diffusion inpainting, 
 
 P2. [Custom Architecture Framework Chatbot](https://github.com/Ohara124c41/generative_ai/tree/main/custom_architecture_framework_chatbot)  
 High-level goal: create an LLM assistant that answers questions about a proprietary architecture governance framework using RAG.  
-Technologies used: LangChain, OpenAI via Vocareum, ChromaDB or FAISS, pandas, Python notebooks and CLI.
+Technologies used: LangChain, OpenAI via Vocareum, ChromaDB or FAISS, pandas, Python notebooks and CLI.  
+Scope: RAG pipeline with configurable ingestion and vector store, designed for governance corpus Q&A and reproducible CLI runs.
 
 P3. [Lightweight Fine-Tuning of a Foundational Model](https://github.com/Ohara124c41/generative_ai/tree/main/lightweight_fine-tuning_foundational_model)  
 High-level goal: fine-tune DistilBERT for sentiment classification with parameter-efficient techniques.  
@@ -59,7 +80,6 @@ Technologies used: Hugging Face Transformers, PEFT/LoRA, PyTorch, datasets, scik
 P4. [HomeMatch - Personalized Real Estate Agent](https://github.com/Ohara124c41/generative_ai/tree/main/personalized_real-estate_agent)  
 High-level goal: generate synthetic listings, store text and image embeddings, collect buyer preferences, and return GPT-personalized property narratives.  
 Technologies used: LangChain, LangChain-OpenAI, ChromaDB, CLIP and Sentence Transformers, Pillow, pandas.
-
 
 ### Deep Reinforcement Learning
 
@@ -177,6 +197,9 @@ P2. [Create Your Own Image Classifier](https://github.com/Ohara124c41/AI_program
 High-level goal: build and train a flower classifier and expose a command-line interface for training and inference.  
 Technologies used: PyTorch, torchvision, argparse, PIL, checkpointing for transfer learning.
 
+---
+
+<a id="autonomous-systems"></a>
 ## 🤖 School of Autonomous Systems ✈️
 
 ### Sensor Fusion
@@ -257,7 +280,10 @@ P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot
 High-level goal: perform autonomous pick-and-deliver tasks in a house map.  
 Technologies used: ROS Navigation stack (mapping, localization, planning), Gazebo, custom state machine.
 
-## 📊 School of Data Science 📈
+---
+
+<a id="data-science"></a>
+## 🔬 School of Data Science 💾
 
 ### Data Architect
 
@@ -307,7 +333,10 @@ P1. [Flight Delays and Cancellations](https://github.com/Ohara124c41/DFND-Flight
 High-level goal: analyze air travel performance and factors driving delays and cancellations.  
 Technologies used: SQL queries, relational joins and aggregations, data visualization.
 
-## 💼 School of Business 📈
+---
+
+<a id="business"></a>
+## 💼 School of Business
 
 ### Agentic AI for Business Leaders
 
@@ -351,6 +380,9 @@ P5. [Udacity Enterprise Portfolio](https://github.com/Ohara124c41/DMND-Digital_M
 High-level goal: present a cohesive digital marketing portfolio for enterprise stakeholders.  
 Technologies used: portfolio structuring, analytics summaries, content curation.
 
+---
+
+<a id="programming"></a>
 ## 💻 School of Programming and Software Development 🧑‍💻
 
 ### Virtual Reality
