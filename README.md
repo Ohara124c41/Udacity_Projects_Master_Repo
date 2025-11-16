@@ -72,19 +72,19 @@ Technologies used: PyTorch, multi-agent DDPG or MADDPG variants, parameter noise
 
 P1. [GAN Face Generator](https://github.com/Ohara124c41/deep_learning/tree/main/generative_adversarial_network_face_generator)  
 High-level goal: synthesize realistic human faces from random latent vectors by training a GAN on CelebA.  
-Technologies used: PyTorch, torchvision, DCGAN/WGAN-GP training loop with gradient penalty, NumPy, Matplotlib, Jupyter. :contentReference[oaicite:0]{index=0}
+Technologies used: PyTorch, torchvision, DCGAN/WGAN-GP training loop with gradient penalty, NumPy, Matplotlib, Jupyter.
 
 P2. [Landmark Classification & Social Media Tagging](https://github.com/Ohara124c41/deep_learning/tree/main/landmark_classification_tagging_social_media)  
 High-level goal: identify which of 50 global landmarks appears in a user photo to enable automatic social-media tagging.  
-Technologies used: PyTorch CNNs, transfer learning with pretrained backbones, PIL, numpy/pandas, Matplotlib/Seaborn, helper training utilities. :contentReference[oaicite:1]{index=1}
+Technologies used: PyTorch CNNs, transfer learning with pretrained backbones, PIL, numpy/pandas, Matplotlib/Seaborn, helper training utilities. 
 
 P3. [MNIST Handwritten Digit Classifier](https://github.com/Ohara124c41/deep_learning/tree/main/MNIST_handwritten_digits)  
 High-level goal: reach greater than 98 percent accuracy on MNIST with a compact MLP and documented training pipeline.  
-Technologies used: PyTorch, torchvision datasets, BatchNorm and dropout, AdamW with LR scheduling, Jupyter. :contentReference[oaicite:2]{index=2}
+Technologies used: PyTorch, torchvision datasets, BatchNorm and dropout, AdamW with LR scheduling, Jupyter.
 
 P4. [Text Translation & Sentiment Analysis with Transformers](https://github.com/Ohara124c41/deep_learning/tree/main/text_translation_sentiment_analysis_transformers)  
 High-level goal: translate multilingual movie reviews to English and attach sentiment labels to produce a unified analytics-ready CSV.  
-Technologies used: Hugging Face Transformers, MarianMT translation, DistilBERT sentiment pipeline, pandas, PyTorch, sacremoses. :contentReference[oaicite:3]{index=3}
+Technologies used: Hugging Face Transformers, MarianMT translation, DistilBERT sentiment pipeline, pandas, PyTorch, sacremoses. 
 
 ### Computer Vision
 
@@ -261,6 +261,21 @@ Technologies used: ER modeling, PostgreSQL 9.5 DDL, access control and backup co
 P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tree/main/Design_a_Data_Warehouse)  
 High-level goal: model analytical workloads with star schemas and implement an end-to-end ETL pipeline.  
 Technologies used: dimensional modeling, PostgreSQL, SQL-based ETL, performance tuning.
+
+### Data Analyst
+
+P1. [Investigate a Dataset](https://github.com/Ohara124c41/data_analyst/tree/main/investigate_dataset)  
+High-level goal: explore and analyze a firearm and census dataset, articulate key questions, and document visual findings.  
+Technologies used: Jupyter Notebook, pandas, NumPy, Matplotlib, exploratory data analysis workflow.
+
+P2. [Cybersecurity Data Wrangling](https://github.com/Ohara124c41/data_analyst/tree/main/cybersecurity_data_wrangling)  
+High-level goal: gather, assess, clean, and analyze Kaggle Cyber Security Attacks and MITRE ATT&CK datasets, including an optional graph export.  
+Technologies used: pandas, NumPy, programmatic data collection, data quality and tidiness fixes, NetworkX for graph representation, GraphQL.
+
+P3. [Communicate Nuclear IAEA Data Findings](https://github.com/Ohara124c41/data_analyst/tree/main/communicate_nuclear_IAEA_data)  
+High-level goal: produce exploratory and explanatory visualizations on nuclear infrastructure and electricity statistics using merged country-level data.  
+Technologies used: Jupyter Notebook, pandas, Matplotlib, HTML exports for presentation-ready deliverables. 
+
 
 ### Data Foundations
 
