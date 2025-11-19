@@ -295,6 +295,14 @@ P2. [Design a Data Warehouse](https://github.com/Ohara124c41/DataArchitectND/tre
 High-level goal: model analytical workloads with star schemas and implement an end-to-end ETL pipeline.  
 Technologies used: dimensional modeling, PostgreSQL, SQL-based ETL, performance tuning.
 
+P3. [Medical Data Processing Enterprise Data Lake](https://github.com/Ohara124c41/DataArchitectND/tree/main/design_enterprise_data_lake)  
+High-level goal: design an open-source enterprise data lake to replace a single-node SQL Server system processing ~77K daily files across ~8K medical facilities, with layered ingestion, processing, and serving.  
+Technologies used: Apache NiFi, Kafka, HDFS/HBase, Spark, Flink, Hive, Presto, Druid, Superset, Ranger/Knox/Kerberos, Mermaid diagrams and design docs. :contentReference[oaicite:1]{index=1}
+
+P4. [SneakerPark Data Governance](https://github.com/Ohara124c41/DataArchitectND/tree/main/data_governance)  
+High-level goal: establish Phase 1 enterprise data management, including a critical data catalog, data quality profiling, and an MDM design spanning multiple microservices.  
+Technologies used: PostgreSQL, SQL, Mermaid for ERDs and architecture, HTML/CSS dashboard mockups, Excel/CSV templates. :contentReference[oaicite:0]{index=0}
+
 ### Data Analyst
 
 P1. [Investigate a Dataset](https://github.com/Ohara124c41/data_analyst/tree/main/investigate_dataset)  
