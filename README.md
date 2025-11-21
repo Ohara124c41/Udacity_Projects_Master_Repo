@@ -129,9 +129,17 @@ Technologies used: EKF-SLAM or particle filtering, NumPy, OpenCV, Python visuali
 
 ### Natural Language Processing
 
+P1. [HMM Part-of-Speech Tagger](https://github.com/Ohara124c41/natural_language_processing/tree/main/part_of_speech_tagging)  
+High-level goal: train a hidden Markov model POS tagger over the universal tagset and decode sequences on held-out text.  
+Technologies used: Python, Pomegranate, NumPy, Jupyter (GraphViz optional for graph rendering).
+
 P2. [Machine Translation](https://github.com/Ohara124c41/NLP-Machine_Translation/blob/master/machineTranslation/machineTranslation/machine_translation.ipynb)  
 High-level goal: translate sentences from English to French with a sequence-to-sequence neural model.  
 Technologies used: PyTorch, RNN/LSTM/GRU encoder-decoder with attention, tokenization, batching.
+
+P3. [DNN Speech Recognizer](https://github.com/Ohara124c41/natural_language_processing/tree/main/DNN_speech_recognizer)  
+High-level goal: build an end-to-end speech recognizer that maps raw audio to text using deep neural networks with CTC decoding.  
+Technologies used: Python, TensorFlow/Keras, NumPy, SoundFile, Jupyter.
 
 ### Machine Learning with Pytorch
 
@@ -377,6 +385,20 @@ Technologies used: product requirement definition, risk and stakeholder analysis
 P2. [Design Sprint](https://github.com/Ohara124c41/PMND-Project_Management_Nanodegree/tree/master/C2-Design_Sprint)  
 High-level goal: validate a product idea through a structured multi-day sprint workflow.  
 Technologies used: sprint artifacts, user journey mapping, prototyping and feedback capture.
+
+### Marketing Analytics
+
+P1. [Crafting an Analytics Brief](https://github.com/Ohara124c41/marketing_analytics/tree/main/crafting_analytics_brief)  
+High-level goal: build a strategic analytics brief for Boston Dynamics Spot Enterprise with a 14-slide HTML deck and funnel visualization.  
+Technologies used: Python, Matplotlib, HTML presentation export. 
+
+P2. [Sales Objective Analysis](https://github.com/Ohara124c41/marketing_analytics/tree/main/sales_objective_analysis)  
+High-level goal: compare Black Friday 2017 vs 2018 across objectives, audience, marketing, sales, and products, producing a structured analysis report and charts.  
+Technologies used: pandas, openpyxl, matplotlib, seaborn, numpy. 
+
+P3. [Visual Storytelling with Data](https://github.com/Ohara124c41/marketing_analytics/tree/main/storytelling_with_data)  
+High-level goal: explain seasonal gift-shopping behavior using minimalist visuals and an HTML narrative for UK ecommerce.  
+Technologies used: pandas, matplotlib, numpy, HTML story output. 
 
 ### Digital Marketing
 
