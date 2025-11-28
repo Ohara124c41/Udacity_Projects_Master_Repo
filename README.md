@@ -26,6 +26,22 @@ Reinforcement learning, deep learning, computer vision, NLP, multi-agent systems
 <a id="ai"></a>
 ## 🧠 School of Artificial Intelligence 🤖
 
+### Agentic AI Engineering with LangChain and LangGraph
+
+P1. [EcoHome Energy Advisor](https://github.com/Ohara124c41/agentic_ai_langchain_langgraph/tree/main/energy_advisor)  
+High-level goal: provide RAG + tool-using guidance for smart-home energy optimization using an agentic workflow.  
+Technologies used: LangChain, LangGraph, Python, notebooks for DB/RAG setup and evaluation, tool-backed agent.  
+
+P2. [DocDacity - Document Assistant](https://github.com/Ohara124c41/agentic_ai_langchain_langgraph/tree/main/report-building_agent)  
+High-level goal: route user intents to QA, summarization, or calculator agents for document question answering and reporting.  
+Technologies used: LangChain, intent classification and routing, calculator tool, document search/read/stats, session memory and logging.  
+
+P3. [UDA-Hub - Multi-Agent Support System](https://github.com/Ohara124c41/agentic_ai_langchain_langgraph/tree/main/autonomous_knowledge_agent)  
+High-level goal: triage support tickets with a LangGraph multi-agent system that uses tools, sentiment, and knowledge base lookups.  
+Technologies used: LangGraph multi-agent graph, FastMCP tools over SQLite, sentiment-aware routing, KB with ~14 articles, REPL demo and tests.
+
+
+
 ### Agentic AI
 
 P1. [Multi-Agent Orchestrator Logistics System](https://github.com/Ohara124c41/agentic_ai/tree/main/multi-agent_orchestrator_logistics_system)  
@@ -140,6 +156,17 @@ Technologies used: PyTorch, RNN/LSTM/GRU encoder-decoder with attention, tokeniz
 P3. [DNN Speech Recognizer](https://github.com/Ohara124c41/natural_language_processing/tree/main/DNN_speech_recognizer)  
 High-level goal: build an end-to-end speech recognizer that maps raw audio to text using deep neural networks with CTC decoding.  
 Technologies used: Python, TensorFlow/Keras, NumPy, SoundFile, Jupyter.
+
+### AI Trading
+
+P1. [Backtest a Dynamic Investment Strategy](https://github.com/Ohara124c41/ai_trading/tree/main/backtest_a_dynamic_investment_strategy)  
+High-level goal: implement and evaluate a rule-based strategy with historical data to compute risk/return characteristics.  
+Technologies used: Jupyter Notebook, pandas, NumPy, rolling metrics, basic backtesting utilities and plotting.  
+
+P2. [Data Transformation for Trading Models](https://github.com/Ohara124c41/ai_trading/tree/main/data_transformation_for_trading_models)  
+High-level goal: prepare market time series for modeling by cleaning, aligning, and deriving predictive features.  
+Technologies used: pandas, feature engineering, normalization, windowed aggregations, technical indicators.
+
 
 ### Machine Learning with Pytorch
 
@@ -288,6 +315,17 @@ P9. [Home Service Robot](https://github.com/Ohara124c41/RSEND-Home_Service_Robot
 High-level goal: perform autonomous pick-and-deliver tasks in a house map.  
 Technologies used: ROS Navigation stack (mapping, localization, planning), Gazebo, custom state machine.
 
+### Embedded Systems
+
+P1. [Communication Embedded Systems](https://github.com/Ohara124c41/embedded_systems/tree/main/communication_embedded_systems)  
+High-level goal: simulate three embedded nodes exchanging data across LIN, CAN, I2C, and SPI with separate modules.  
+Technologies used: C++ and CMake builds, ISR loops and port separation, Linux builds for sensor monitor, battery module, and data logger.  
+
+P2. [Embedded Input Reader (Raspberry Pi Pico W)](https://github.com/Ohara124c41/embedded_systems/tree/main/embedded_input_reader)  
+High-level goal: implement a muxed switch reader with button passcode logic and LED control, runnable in Wokwi.  
+Technologies used: MicroPython, Wokwi simulator (diagram.json, wokwi.toml), debounce logic, GPIO handling and LED toggling.
+
+
 ---
 
 <a id="data-science"></a>
@@ -342,6 +380,17 @@ Technologies used: probability rules, combinatorics, NumPy, pandas, Jupyter.
 P4. [Health and Sleep Quality Description](https://github.com/Ohara124c41/statistics_for_data_analysis/tree/main/describe_health_sleep_quality_data)  
 High-level goal: explore and describe health and sleep quality data to surface descriptive insights and visual patterns.  
 Technologies used: pandas, descriptive statistics, Matplotlib or Seaborn visualization, Jupyter.
+
+### SQL
+
+P1. [Deforestation Exploration](https://github.com/Ohara124c41/sql/tree/main/deforestation_exploration)  
+High-level goal: explore deforestation datasets with relational queries to surface trends and comparisons.  
+Technologies used: SQL querying, joins and aggregations, result interpretation and basic visualization exports.  
+
+P2. [Social News Aggregator (Udiddit) - Schema Redesign and Migration](https://github.com/Ohara124c41/sql/tree/main/social_news_aggregator)  
+High-level goal: normalize a flawed forum database, migrate existing data, and validate integrity at scale.  
+Technologies used: PostgreSQL DDL/DML/DQL, indexes and constraints, Dockerized Postgres 15 workflow, validation queries and expected counts.
+
 
 ### Data Foundations
 
